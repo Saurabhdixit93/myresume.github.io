@@ -6,8 +6,7 @@ body{
 #Border_Header{
     height:70vh;
     opacity: 2;
-    background-image: url("/myresume.github.io
-/laptop.jpg");
+    background-image: url("/Images/laptop.jpg");
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
