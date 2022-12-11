@@ -57,9 +57,9 @@ body{
     font-weight: 700;
     margin-bottom: 0.4rem;
 }
-#my-name:hover{
+/* #my-name:hover{
     color: black;
-}
+} */
 .icons li a i{
     color: black;
     padding: 5px;
