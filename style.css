@@ -222,7 +222,9 @@ section:nth-child(2n+1){
 }
 #Contact{
     background-color: #0abcf9;
-    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    background-image:  linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    /* background-image: repeating-linear-gradient(45deg, #9e6df9, #f77656 25%, #5ffc87 50%); */
+
     color: white;
     padding-bottom: 40px;
 }
@@ -365,3 +367,70 @@ section:nth-child(2n+1){
     background-color: #80808078;
     color: white;
 }
+/* Work Experience */
+.timeline{
+    width: 75%;
+    position: relative;
+
+}
+.timeline-box{
+    width: 40%;
+    margin: 5px;
+    left: 5%;
+    position: relative;
+    min-height: 150px;
+   
+
+}
+.timeline-box:nth-child(2n){
+    left: 55%;
+}
+#timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 8%;
+    left: 50%;
+    border: 2px dashed #0096fa6b;
+    height: 80%;
+    color: #433E3F;
+}
+ .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+#timeline-divider i {
+    transform: rotate(90deg);
+  	margin-top: -30px;
+    margin-bottom: -30px;
+    display: block;
+    color: #063a8f;
+}
+.timeline-box:nth-child(2n+1)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -13%;
+    border-radius: 60%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:  rgb(44, 43, 43);
+    z-index: 1;
+
+}
+
+.timeline-box:nth-child(2n)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -15%;
+    border-radius: 60%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: rgb(51, 50, 50);
+    z-index: 1;
+}
+
+
+
